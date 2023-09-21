@@ -1,0 +1,91 @@
+body {
+    background-color: #d0d1d3;
+    color: #112432;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #112432;
+}
+
+.navbar-brand {
+    color: #d0d1d3 !important;
+}
+
+/* About Me styles */
+.about-me-section {
+    background-color: #d0d1d3;
+    padding: 40px;
+}
+
+/* Education styles */
+.education-section {
+    background-color: #9e9199;
+    padding: 40px;
+}
+
+/* Projects styles */
+.projects-section {
+    background-color: #5e7783;
+    padding: 40px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #4d1635;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d0d1d3;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.circle i {
+    font-size: 24px;
+}
+
+.circle span {
+    margin-top: 10px;
+}
+
+.circle:hover {
+    background-color: #112432;
+}
+
+/* CV styles */
+.cv-section {
+    background-color: #9e9199;
+    padding: 40px;
+}
+
+/* Technical Interest styles */
+.technical-interest-section {
+    background-color: #5e7783;
+    padding: 40px;
+}
+
+/* Personal Interest styles */
+.personal-interest-section {
+    background-color: #9e9199;
+    padding: 40px;
+}
+
+/* Contact Me styles */
+.contact-me-section {
+    background-color: #5e7783;
+    padding: 40px;
+}
+
+/* Footer styles */
+.footer-section {
+    background-color: #112432;
+    color: #d0d1d3;
+    text-align: center;
+    padding: 20px;
+}
