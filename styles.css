@@ -2,10 +2,13 @@
 
 }
 
-.nav-section {}
+.nav-section {
+    background-color: #E5D4ED;
+}
 
 .header-section{
     background-image: ;
+    background-color: #6D72C3;
 }
 
 .header-section h2{

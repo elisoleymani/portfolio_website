@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Your Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -18,11 +18,28 @@
 
 <!-- Navbar -->
 
-    <div class="nav-section">
-        About me 
-        Skills 
-        Projects 
-        Contact me 
+    <div class="nav-section navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me</a>
+                </li>
+              </ul>
+              </div>      
+          </div>
     </div>
 
 
@@ -49,8 +66,9 @@
             </div>
 
         </div>
-
-    </div>         
+    </div>      
+    
+    
 <!-- Skills Section -->
     <div class="skills-section">
         <h2>Skills</h2>
@@ -68,117 +86,50 @@
 
         
 <!-- Education Section -->
-<div class="education-section">
-    <h2><i class="bi bi-mortarboard-fill"></i> Education</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <h3>Degree</h3>
-            <p>
-  
-            </p>
-        </div>
-        <div class="col-md-6">
-            <h3>Degree</h3>
-            <p>
-            </p>
+    <div class="education-section">
+        <h2>Education</h2>
+        <div class="degrees-section">
+            <div class="master-degree">
+
+            </div>
+
+            <div class="bachelor-degree">
+
+
+            </div>
         </div>
     </div>
-  </div>
-  
 
-     </li>
-     <li class="widget">
-        
+<!-- Experience Section -->
+<div class="experience-section">
+    <h2>Experience</h2>
+    <div class="works-section">
+        <div class="experience-one">
 
-<!-- Projects Section -->
-<div class="projects-section">
-    <h2>Projects</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="circle">
-                <i class="bi bi-terminal"></i>
-                <span>Click for more information...</span>
-            </div>
-            <!-- Add paper and GitHub URL here for the search engine project -->
         </div>
-        <div class="col-md-6">
-            <div class="circle">
-                <i class="bi bi-pc-display-horizontal"></i>
-                <span>Click for more information...</span>
-            </div>
-            <!-- Add photo and source code for the GraphDB project here -->
+
+        <div class="experience-two">
+
+
         </div>
     </div>
-  </div>
+</div>  
 
-
+<!-- 
      </li>
-     <li class="widget">
+     <li class="widget"> -->
 
     
-
-<!-- Personal Interest Section -->
-<div class="personal-interest-section">
-    <h2>Personal</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <h3>My Free Time</h3>
-            <ul>
-                <li>hobby one</li>
-                <li>hobby 2</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <h3>Past Activities</h3>
-            <ul>
-                <li>experiece</li>
-                <li>experience</li>
-            </ul>
-        </div>
-    </div>
-  </div>
-
-     </li>
-     <li class="widget">
-
     
 <!-- Contact Me Section -->
-<div class="contact-me-section">
-    <div class="row">
-        <div class="col-md-6">
-            <h2>Contact Me</h2>
-            <form>
-                <!-- Contact form fields here -->
-            </form>
-        </div>
-        <div class="col-md-6">
-            <h2>Reach Me At</h2>
-            <p>
-                <i class="bi bi-envelope"></i> contact@example.com
-            </p>
-            <p>
-                <i class="bi bi-linkedin"></i> [Your LinkedIn profile link here]
-            </p>
-        </div>
-    </div>
-  </div>
-                                       
-     </li>
-   </ul>
-
-
-
-
-
-
-</div>
-
 <!-- Footer Section -->
 <footer class="footer-section">
     <!-- Footer Content Here -->
 </footer>
+
+</div>
 <script src="scripts.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </body>
 </html>
